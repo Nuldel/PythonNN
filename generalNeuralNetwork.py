@@ -138,8 +138,3 @@ def compareMethods(n_epochs=10, encoder_epochs=10):
     plt.plot(range(n_epochs + 1), losses2, label="Entrenamiento con autoencoder")
     plt.legend()
     plt.show()
-
-
-compareMethods(5, 5)
-
-
